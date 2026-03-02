@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+      h1{
+        border-radius: 5px;
+        background-color: #69191f;
+        padding: 10px;
+        width: 100%;
+        font-family: Times New Roman, sans-serif;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Sombra */
+      }
+      p{
+        color: white;
+        max-width: 800px;
+      }
+      .img-hover{
+  transition: all 0.3s ease;
+  cursor: pointer; /* manita */
+  border-radius: 10px;
+}
+
+/* Cuando pasas el mouse */
+.img-hover:hover{
+  transform: scale(1.1); /* zoom */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  filter: brightness(1.2);
+}
+    </style>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbumes</title>
+</head>
+<body>
+    <center><h1 id="s1">Álbumes</h1></center>
+    <center><img src="w.jpg" class="img-hover" width="200" height="200"></center>
+    <center><p>Piss in the Wind</p></center>
+    <br>
+    <center><img src="s.jpg" class="img-hover" width="200" height="200"></center>
+    <center><p>Smithereens</p></center>
+    <center><img src="n.jpg" class="img-hover" width="200" height="200"></center>
+    <center><p>Nectar</p></center>
+    <br>
+    <center><img src="b.jpg" class="img-hover" width="200" height="200"></center>
+    <center><p>Ballads 1</p></center>
+    <center><img src="t.jpg" class="img-hover" width="200" height="200"></center>
+    <center><p>In Tongues</p></center>
+    <br>
+    
+</body>
+</html>
